@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/majyo_background.jpg);
+    background-repeat:non-repeat;
+    background-size:cover;
+
+}
+    
+
+
+h1{
+    padding:30px;
+    font-size: 50px;
+    text-align: center;
+    font-family:"Nico Moji";
+}
+
+form{
+    margin-bottom: 14px;
+    text-align: center;
+   font-family:"Nico Moji" ;
+}
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+
+
+}
+input[type="text"],
+textarea{
+background:rgba(255,255,255,.5);
+border:1px #fff solid;
+border-radius:5px;
+padding:10px;
+font-size:1 rem;
+font-family:"Nico Moji"
+}
+
+input[type="text"]
+{
+    width:100%;
+    max-width:240px;
+}
+textarea{
+width:100%;
+max-width: 240px;
+height:20rem;
+}
+
